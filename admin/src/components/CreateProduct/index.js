@@ -253,7 +253,7 @@ const CreateProduct = ({ isVisible, handleClose, handleClickSave }) => {
                 </Typography>
 
                 <Box paddingTop={3}>
-                  <input type="file" name="image" onChange={handleChange} accept="image/*" />
+                  <input type="file" name="image" onChange={handleChange} accept="image/*" multiple />
                 </Box>
                 {error.image ? (
                   <Typography variant="pi" textColor="danger700">

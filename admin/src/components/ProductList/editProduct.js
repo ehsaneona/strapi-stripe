@@ -203,7 +203,7 @@ const EditProduct = ({ productId, isEditVisible, handleCloseEdit, handleClickUpd
                 </Typography>
 
                 <Box paddingTop={3}>
-                  <input type="file" name="image" onChange={handleChange} accept="image/*" />
+                  <input type="file" name="image" onChange={handleChange} accept="image/*" multiple />
                 </Box>
               </GridItem>
               <GridItem col={12}>
